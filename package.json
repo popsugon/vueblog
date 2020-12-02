@@ -9,7 +9,6 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "publish": "deploy.sh"
+    "docs:build": "vuepress build docs"
   }
 }
