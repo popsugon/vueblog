@@ -1,0 +1,14 @@
+{
+  "name": "vuepress-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sugon Liu",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
