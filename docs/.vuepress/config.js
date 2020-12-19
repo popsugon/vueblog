@@ -23,7 +23,7 @@ module.exports = {
         // lastUpdated: 'Last Updated',
         nav: require('./nav/en'),
         sidebar: {
-          '/english-speech/': getEnglishSpeechSidebar()
+          '/english-speech/': getWeekTaskBar()
           // '/api/': getApiSidebar(),
           // '/guide/': getGuideSidebar('Guide', 'Advanced'),
           // '/plugin/': getPluginSidebar('Plugin', 'Introduction', 'Official Plugins'),
@@ -38,7 +38,7 @@ module.exports = {
         // lastUpdated: '上次更新',
         nav: require('./nav/zh'),
         sidebar: {
-          '/zh/english-speech/': getEnglishSpeechSidebar()
+          '/zh/week-task/': getWeekTaskBar()
           // '/zh/api/': getApiSidebar(),
           // '/zh/guide/': getGuideSidebar('指南', '深入'),
           // '/zh/plugin/': getPluginSidebar('插件', '介绍', '官方插件'),
@@ -49,10 +49,8 @@ module.exports = {
   }
 }
 
-function getEnglishSpeechSidebar() {
+function getWeekTaskBar() {
   return [
-    '',
-    'speech1',
-    'speech2'
+    ''
   ]
 }
