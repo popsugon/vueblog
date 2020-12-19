@@ -44,7 +44,7 @@ module.exports = [
     ]
   },
   {
-    text: 'English Speech',
-    link: '/english-speech/'
+    text: 'Week Task',
+    link: '/week-task/'
   }
 ]

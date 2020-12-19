@@ -45,7 +45,7 @@ module.exports = [
     ]
   },
   {
-    text: '英语演讲',
-    link: '/zh/english-speech/'
+    text: '每周任务',
+    link: '/zh/week-task/'
   }
 ]
