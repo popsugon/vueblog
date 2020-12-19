@@ -23,7 +23,7 @@ module.exports = {
         // lastUpdated: 'Last Updated',
         nav: require('./nav/en'),
         sidebar: {
-          '/english-speech/': getWeekTaskBar()
+          '/week-task/': getWeekTaskBar()
           // '/api/': getApiSidebar(),
           // '/guide/': getGuideSidebar('Guide', 'Advanced'),
           // '/plugin/': getPluginSidebar('Plugin', 'Introduction', 'Official Plugins'),
